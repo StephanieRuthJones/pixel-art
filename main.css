@@ -1,0 +1,70 @@
+* {
+    background-color: grey;
+}
+
+#palette {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+.canvas {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+
+.pixel {
+    display: table-cell;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border: solid;
+}
+
+.paint {
+    margin:0 20px 20px 0;
+}
+
+#red-paint {
+    border: 10px solid red;
+    height: 30px;
+    width: 30px;
+    background: red;
+}
+
+#orange-paint {
+    border: 10px solid orange;
+    height: 30px;
+    width: 30px;
+    background: orange;
+}
+
+#yellow-paint {
+    border: 10px solid yellow;
+    height: 30px;
+    width: 30px;
+    background: yellow;
+}
+
+#green-paint {
+    border: 10px solid green;
+    height: 30px;
+    width: 30px;
+    background: green;
+}
+
+#blue-paint {
+    border: 10px solid blue;
+    height: 30px;
+    width: 30px;
+    background: blue;
+}
