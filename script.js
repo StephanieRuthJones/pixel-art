@@ -50,6 +50,10 @@ for (var i = 0; i < 16; i++) {
 }
     body.appendChild(row)
 }
+
+//event.target.style
+//.remove and .add to change colors
+//for loop to create pallette
 //event handler to each color on pallette and then wherever click, assigns that color to pixel
 
 
