@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="main.css">
-    <title>Document</title>
+    <title>Pixel Art Maker</title>
 </head>
-<body id="grid">
 
-    <div id="palette">
-        <div id="red-paint" class="red paint"></div>
-        <div id="orange-paint" class="orange paint"></div>
-        <div id="yellow-paint" class="yellow paint"></div>
-        <div id="green-paint" class="green paint"></div>
-        <div id="blue-paint" class="blue paint"></div>
-    </div>
+<body>
+    <header>Pixel Art Maker</header>
+
+    <table class="canvas"></table>
+
+    <form class="form" action="/action_page.php">
+        Select your favorite color:
+        <input type="color" id="color" name="favcolor">
+    </form>
+
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
+
+
 </html>

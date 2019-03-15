@@ -1,126 +1,38 @@
-* {
+html, body{
+    background-image: linear-gradient(to bottom right, #90D7FF, #C9F9FF);
+    margin:0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  form,
+  header {
+      color: black;
+      text-align: center;
+      font-size: 40px;
+  }
+
+table, tr, td {
+    border: silver 1px dotted;
+   }
+   
+   .canvas {
     background-color: grey;
-}
-
-#palette {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-  }
-
-.pixel {
-    display: table-cell;
-    background-color: white;
-    width: 30px;
-    height: 30px;
-    border: 2px solid black;
-  }
-
-
-/* .row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-  }
-  
-.canvas {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-  } */
-
-/* .pixel {
-    display: table-cell;
-    /* background-color: white; */
-    /* width: 30px;
-    height: 30px;
-    border: 2px solid black;
-} */ */
-
-.paint {
-    margin:0 20px 20px 0;
-}
-
-#red-paint {
-    border: 10px solid red;
-    height: 30px;
-    width: 30px;
-    background: red;
-}
-
-.red {
-    /* display: table-cell; */
-    background-color: red;
-    width: 30px;
-    height: 30px;
-    border: 2px solid red;
-}
-
-#orange-paint {
-    border: 10px solid orange;
-    height: 30px;
-    width: 30px;
-    background: orange;
-}
-
-.orange {
-    display: table-cell;
-    background-color: orange;
-    width: 30px;
-    height: 30px;
-    border: 2px solid orange;
-}
-
-#yellow-paint {
-    border: 10px solid yellow;
-    height: 30px;
-    width: 30px;
-    background: yellow;
-}
-
-.yellow {
-    display: table-cell;
-    background-color: yellow;
-    width: 30px;
-    height: 30px;
-    border: 2px solid yellow;
-}
-
-#green-paint {
-    border: 10px solid green;
-    height: 30px;
-    width: 30px;
-    background: green;
-}
-
-.green {
-    display: table-cell;
-    background-color: green;
-    width: 30px;
-    height: 30px;
-    border: 2px solid green;
-}
-
-#blue-paint {
-    border: 10px solid blue;
-    height: 30px;
-    width: 30px;
-    background: blue;
-}
-
-.blue {
-    display: table-cell;
-    background-color: blue;
-    width: 30px;
-    height: 30px;
-    border: 2px solid blue;
-}
+    margin: auto;
+    margin-bottom: 2em;
+   }
+   
+   table {
+    border: darkgrey 2px solid;
+    border-collapse: collapse;
+    box-shadow: 0px 10px 18px darkslategrey;
+    margin-bottom: 1em;
+   }
+   
+   tr {
+    height: 20px;
+   }
+   
+   td {
+    min-width: 20px;
+   }
